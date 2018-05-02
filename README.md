@@ -15,15 +15,19 @@ phpunit https://phpunit.de/getting-started/phpunit-7.html
 
 clone this repo
 ```
-$ git clone git@github.com:mekoahdd/ChallengeLinio.git     
+$ git clone git@github.com:mekoahdd/ChallengeLinio.git  
+$ cd    ChallengeLinio
+```
+run composer dump-autoload to generate map-class
+```
+$ composer dump-autoload
 ```
 
 
 ### Execute
 
-move into dir and run console/execute_linio_test.php
+run console/execute_linio_test.php
 ```
-$ cd ChallengeLinio
 $ php console/execute_linio_test.php
 ```
 
