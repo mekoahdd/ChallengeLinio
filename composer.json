@@ -1,0 +1,5 @@
+{
+  "autoload": {
+    "classmap":["./src/helpers/","./src/exec/"]
+  }
+}
